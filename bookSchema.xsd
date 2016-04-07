@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/bookSchema"
+	xmlns:book="http://www.example.org/bookSchema">
+
+
+	<complexType name="bookType">
+		<sequence>
+			<element name="title" type="string" />
+			<element name="author" type="string" />
+			<element name="year" type="integer" />
+		</sequence>
+	</complexType>
+</schema>

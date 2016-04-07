@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books:infoBooks xmlns:books="http://www.example.org/infoBooksSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/infoBooksSchema infoBooksSchema.xsd">
+
+	<book>
+		<title>Everyday Italian</title>
+		<author>Alex</author>
+		<year>2005</year>
+	</book>
+
+	<book>
+		<title>Harry Potter</title>
+		<author>J K. Rowling</author>
+		<year>2005</year>
+	</book>
+
+	<book>
+		<title>XQuery Kick Start</title>
+		<author>James McGovern</author>
+		<year>2003</year>
+	</book>
+
+	<book>
+		<title>Learning XML</title>
+		<author>Erik T. Ray</author>
+		<year>2003</year>
+	</book>
+
+</books:infoBooks>

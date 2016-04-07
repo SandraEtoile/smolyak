@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/infoBooksSchema"
+	xmlns:books="http://www.example.org/infoBooksSchema" xmlns:book="http://www.example.org/bookSchema">
+
+	<import namespace='http://www.example.org/bookSchema'
+		schemaLocation='bookSchema.xsd' />
+
+	<element name="infoBooks">
+		<complexType>
+			<sequence>
+				<element name="book" type="book:bookType" minOccurs="1"
+					maxOccurs="unbounded" />
+			</sequence>
+		</complexType>
+	</element>
+</schema>

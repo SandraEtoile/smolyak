@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users:infoUsers xmlns:users="http://www.example.org/infoUsersSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/infoUsersSchema infoUsersSchema.xsd">
+
+	<user>
+		<name>Vasya</name>
+		<id>1</id>
+	</user>
+
+	<user>
+		<name>Polina</name>
+		<id>2</id>
+	</user>
+
+	<user>
+		<name>Vova</name>
+		<id>3</id>
+	</user>
+
+
+</users:infoUsers>

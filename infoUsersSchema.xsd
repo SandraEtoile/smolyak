@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/infoUsersSchema"
+	xmlns:users="http://www.example.org/infoUsersSchema" xmlns:user="http://www.example.org/userSchema">
+
+	<import namespace='http://www.example.org/userSchema'
+		schemaLocation='userSchema.xsd' />
+
+	<element name="infoUsers">
+		<complexType>
+			<sequence>
+				<element name="user" type="user:userType" minOccurs="1"
+					maxOccurs="unbounded" />
+			</sequence>
+		</complexType>
+	</element>
+</schema>
